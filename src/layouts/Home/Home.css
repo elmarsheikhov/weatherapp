@@ -1,0 +1,66 @@
+.main_container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.weather_container {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+  padding: 10px;
+  width: 500px;
+  margin: 0 auto 40px;
+}
+
+.search_input {
+  background-color: #f27731;
+  border: 3px solid !important;
+  box-shadow: none !important;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 14px;
+  margin: 20px auto;
+}
+.show_btn {
+  border: none;
+  border-radius: 14px;
+  padding: 10px 20px;
+  color: #fef;
+  background-color: #5a5551ec;
+  transition: all 0.4s;
+}
+.show_btn:hover {
+  background-color: #635f5cc2;
+}
+.forecast {
+  width: max-content;
+  background-color: transparent;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #e89e6aae;
+  /* opacity: 0.85; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 115px;
+  border-radius: 14px;
+}
+.today_forecast div {
+  font-size: 22px;
+}
+.today_img {
+  width: 200px;
+}
+.forecast_day_img {
+  width: 140px;
+}
+
+.forecast_day {
+  border-radius: 14px;
+  background-color: #635f5cc2;
+  color: #fef;
+  transition: all 0.4s;
+}
+.forecast_day:hover {
+  background-color: #5a5551ec;
+}
